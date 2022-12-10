@@ -1,0 +1,7 @@
+{# templates/personne/affichett.html.twig #}
+<h1>Liste des personnes</h1> <hr />
+<table> {% for p in personnes %}
+ <tr> <td>{{ p.id }}</td> <td>{{ p.nom }}</td> 
+ <td>{{ p.prenom }}</td> </tr>
+ {% endfor %}
+</table>
